@@ -1,0 +1,139 @@
+
+.main-section{
+    width: 100%;
+}
+.primary-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+    
+    .links {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        svg {
+            margin: 10px;
+        }
+        
+    }
+}
+
+.primary-section .arrow {
+    margin-top: 20px;
+    cursor: pointer;
+    animation: 0.4s ease 0s infinite alternate none running mov-arrow;
+        @keyframes mov-arrow {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(0.2em);
+            }
+            100% {
+                transform: translateY(0.4em);
+            }
+        }
+}
+
+#linkedin:hover {
+    fill: #00C2FF;
+    transition: .4s;
+    #linkedin {
+        fill: #00C2FF;
+        transition: .4s;
+    }
+}
+#github:hover {
+    fill: #00C2FF;
+    transition: .2s;
+}
+#instagram:hover {
+    fill: #00C2FF;
+    transition: .2s;
+    #instagram {
+        fill: #00C2FF;
+        transition: .2s;
+    }
+}
+
+.separador {
+    width: 100%;
+}
+
+.second-section {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.content{
+    
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    width: 80%;
+    img {
+        width: 350px;
+    }
+    
+}
+
+.text {
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    padding: 0 20px;
+    h1 {
+        background-image: linear-gradient(to right, #01FFFF, #00C2FF);
+        color: white;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Poppins";
+        font-size: 25px;
+    }
+    p {
+        color: rgb(255, 235, 235);
+        font-size: 15px;
+        font-weight: 00;
+        font-family: "Poppins";
+    }
+}
+
+
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.third-section {
+    width: 100%;
+    height: 90vh;
+    background-color: #4b5555;
+}
+
+.content-3 {
+    border: 1px solid red;
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    color: white;
+}

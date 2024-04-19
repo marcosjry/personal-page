@@ -1,0 +1,48 @@
+
+.palavra {
+    padding: 0;
+    display:flex;
+    width: 100%;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    p {
+        color: white;
+        letter-spacing: 2px;
+        padding: 0 4px;
+    }
+    
+}
+p::after {
+    content: '|';
+    opacity: 1;
+    
+    margin-left: 3px;
+    display: inline-block;
+    animation: blink .7s infinite;
+    background-image: linear-gradient(to bottom, #01FFFF, #00C2FF);
+
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  }
+@keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+}
+
+.arrow {
+    background-image: linear-gradient(to right, #01FFFF, #00C2FF);
+    color: white;
+    background-clip: text;
+  -webkit-background-clip: text;
+  font-family: "lexend deca";
+  font-size: 35px;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+}
+
