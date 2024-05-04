@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { TypewriterComponent } from '../typewriter/typewriter.component';
 import { NgOptimizedImage } from '@angular/common'
 import { ScrollToDirective } from './diretiva.directive';
+import { ThirdSectionComponent } from '../third-section/third-section.component';
 
 
 @Component({
@@ -10,7 +11,8 @@ import { ScrollToDirective } from './diretiva.directive';
   imports: [
     TypewriterComponent,
     NgOptimizedImage,
-    ScrollToDirective
+    ScrollToDirective,
+    ThirdSectionComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
