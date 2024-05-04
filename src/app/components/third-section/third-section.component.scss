@@ -1,0 +1,68 @@
+
+
+.third-section {
+    width: 100%;
+    background-color: #4b5555;
+    .texto {
+        color: white;
+        font-family: "lexend Deca";
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+
+    }
+    .risco {
+        width: 25px;
+        height: 5px;
+        background: white;
+    }
+    .content-3 {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .projects {
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 100%;
+    }
+    
+    .projectCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        color: rgb(207, 206, 206);
+        width: 500px;
+        height: 140px;
+        background-color: #2D2B2C;
+        border-radius: 5px;
+        margin-top: 10px;
+        h2 {
+            font-family: "poppins";
+            font-size: 20px;
+        }
+        p {
+            font-size: 15px;
+            color: rgb(255, 255, 255);
+            font-family: "lexend deca";
+        }
+
+        a {
+            background-image: linear-gradient(to right, #01FFFF, #00C2FF);
+            color: white;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: "Poppins";
+            font-size: 15px;
+        }
+    }
+
+
+}
