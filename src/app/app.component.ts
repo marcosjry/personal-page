@@ -16,5 +16,5 @@ import { Header2Component } from './components/header-2/header-2.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'landing-page';
+  title = 'Marcos';
 }

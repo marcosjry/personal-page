@@ -3,11 +3,11 @@
     padding: 0;
     display:flex;
     width: 100%;
-    font-size: 25px;
+    font-size: 22px;
     font-family: "Poppins", sans-serif;
     p {
         color: white;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         padding: 0 4px;
     }
     
@@ -16,7 +16,7 @@ p::after {
     content: '|';
     opacity: 1;
     
-    margin-left: 3px;
+    margin-left: -3px;
     display: inline-block;
     animation: blink .7s infinite;
     background-image: linear-gradient(to bottom, #01FFFF, #00C2FF);
