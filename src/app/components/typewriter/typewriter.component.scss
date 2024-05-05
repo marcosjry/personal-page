@@ -1,7 +1,6 @@
 
 .palavra {
     padding: 0;
-    display:flex;
     width: 100%;
     font-size: 22px;
     font-family: "Poppins", sans-serif;
@@ -15,7 +14,6 @@
 p::after {
     content: '|';
     opacity: 1;
-    
     margin-left: -3px;
     display: inline-block;
     animation: blink .7s infinite;
